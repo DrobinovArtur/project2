@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Shunu</title>
+    <link rel="stylesheet" href="Css/Style.css"> </head>
+
+<body>
+    <header class="header">
+        <div class="header__top">
+            <div class="header__topIcon-left">
+                <div class="top__Call-icon"></div>
+            </div>
+            <p class="menu__number">(044) 123-45-67 (044) 567-89-10</p>
+            <div class="menu__base-registration">
+                <div class="menu__base-icon"></div>
+                <form action="">
+                    <input type="text" class="base__pass" placeholder="логин">
+                    <input type="password" class="base__pass" placeholder="пароль"> </form>
+                <p class="menu__base-text"> вход | регистрация</p> <a href="" class="menu__base-href">забыли пароль?</a> </div>
+        </div>
+        <div class="header__img"></div>
+        <!--        кінець шапки початок навігаційного меню-------->
+        <nav class="nav">
+            <div class="nav__first-button nav__button">
+                <a href="">
+                    <p>О КОМПАНИ</p>
+                </a>
+            </div>
+            <div class="nav__two-button nav__button">
+                <a href="">
+                    <p>ОПЛАТА</p>
+                </a>
+            </div>
+            <div class="nav__three-button nav__button">
+                <a href="">
+                    <p>ДОСТАВКА</p>
+                </a>
+            </div>
+            <div class="nav__four-button nav__button">
+                <a href="">
+                    <p>СТАТЬИ</p>
+                </a>
+            </div>
+            <div class="nav__five-button nav__button">
+                <a href="">
+                    <p>КОНТАКТЫ</p>
+                </a>
+            </div>
+            <div class="nav__basket-base">
+                <div class="nav__basket-img"></div>
+                <p class="basket__text-one">товаров:</p>
+                <p class="basket__text-blue"> 0</p>
+                <p class="basket__text-one basket__text-two">на сумму:</p>
+                <p class="basket__text-blue text__blue-two"> 0,00 грн</p>
+            </div>
+        </nav>
+    </header>
+    <!--    Кінець хедер початок головного контенту------>
+    <section class="section">
+        <div class="section__first-form">
+            <div class="sectionForm__text-one">
+                <p class="form__text-blue form__text-blueOne  ">Диски:</p>
+                <p class=" form__text-blue form__text-blueTwo ">Поиск по автомобилю</p>
+                <p class="form__text-blue form__text-blueThree  ">Шины:</p>
+            </div>
+            <div class="section__select-oneBase">
+                <p class="select__one-text select__text-big">Марка</p>
+                <p class="select__two-text select__text-small">авто:</p>
+                <select name="" class="select__one"></select>
+                <p class="select__three-text select__text-big">Марка </p>
+                <p class="select__four-text select__text-small">авто:</p>
+                <select name="" class="select__one"></select>
+            </div>
+            <div class="section__select-twoBase">
+                <p class="select__five-text select__text-big">Модель</p>
+                <p class="select__six-text select__text-small">автомобиля:</p>
+                <select name="" class="select__one select__two"></select>
+                <p class="select__seven-text select__text-big">Модель</p>
+                <p class="select__eight-text select__text-small">автомобиля:</p>
+                <select name="" class="select__one select__two"></select>
+            </div>
+            <div class="section__select-threeBase">
+                <p class="select__nine-text select__text-big">Год выпуска</p>
+                <p class="select__six-text select__text-small">автомобиля:</p>
+                <select name="" class="select__three"></select>
+                <p class="select__ten-text select__text-big">Год выпуска</p>
+                <p class="select__eleven-text select__text-small">автомобиля:</p>
+                <select name="" class="select__three-last"></select>
+            </div>
+            <div class="section__select-fourBase">
+                <p class="select__twelve-text select__text-big">Комплектация:</p>
+                <select name="" class="select__one select__four"></select>
+                <p class="select__thirteen-text select__text-big">Комплектация:</p>
+                <select name="" class="select__one select__four-last"></select>
+            </div>
+            <a href="">
+                <p class="section__first-last-text">поuск...</p>
+            </a>
+        </div>
+        <!--        Початак другого боксу з формами-->
+        <div class="section__two-form">
+            <p class="twoForm__text-one form__text-blue">ПОИСК ШИН</p>
+            <div class="section__twoForm-select-base">
+                <p id="select__five-text"> Размер: </p>
+                <select name="" class="twoForm__select" onkeydown="tab">
+                    <option value="145">145</option>
+                </select>
+                <p>/</p>
+                <select name="" class="twoForm__select"> </select>
+            </div>
+            <div class="section__twoForm-select-base">
+                <p id="formTwo-text2">R</p>
+                <select name="" class="twoForm__select twoForm-select" onkeydown="tab">
+                    <option value="12">12</option>
+                </select>
+            </div>
+            <div class="twoForm__baseTwo">
+                <p class="baseTwo">Сезон:</p>
+                <div class="baseTwo-base">
+                    <form action="" class="baseTwo__form">
+                        <input type="checkbox"> </form> <span class="label__one">лето</span>
+                    <input type="checkbox" class="baseTwo__check"> <span class="label__two">зима</span>
+                    <input type="checkbox" class="baseTwo__check-two"> <span class="label__three">всесез</span> </div>
+            </div>
+            <a href="">
+                <p class="section__first-last-text serch__text-one">поuск...</p>
+            </a>
+        </div>
+        <!--             Початок третьої секції форм-------->
+        <div class="section__three-form">
+            <div class="section__three-form-left">
+                <p class=" form__text-blue three-form-textOne ">поиск дисков</p>
+                <div class="three__form-base-one">
+                    <p class="diametr-text">Диаметр</p>
+                    <p class="disc-text">диска:</p>
+                    <select name="" class="form__three-selectOne">
+                        <option value="14">14</option>
+                    </select>
+                </div>
+                <div class="three__form-base-two ">
+                    <div class="base__two-base">
+                        <p class="diametr-text kol__text">Количество</p>
+                        <div class="text__krepesh">
+                            <p>крепёжных отверстий:</p>
+                        </div>
+                    </div>
+                    <select name="" class=" base__two-base-select">
+                        <option value="3">3</option>
+                    </select>
+                </div>
+                <div class="three__form-base-three ">
+                    <div class="base-three-base">
+                        <p class="diametr-text-two">Диаметр</p>
+                        <p class="raspol-text"> расположения крепёжных отверстий: </p>
+                    </div>
+                    <select name="" class="base__three-select">
+                        <option value="12">12</option>
+                    </select>
+                </div>
+                <div class="form__three-hr"></div>
+            </div>
+            <div class="section__three-form-right">
+                <p class="section__right-text">ДЦО</p>
+                <p class="section__right-textTwo">(диаметр центрального отверстия):</p>
+                <select name="" class="section__right-select">
+                    <option value="12">12</option>
+                </select>
+                <p class="text__et">ET</p>
+                <p class="text__vulet">(вылет диска):</p>
+                <select name="" class="section__right-selectOne">
+                    <option value="12">12</option>
+                </select>
+                <a href="">
+                    <p class="text__search-two">поuск...</p>
+                </a>
+            </div>
+        </div>
+    </section>
+    <main class="main">
+        <div class="main__left">
+            <div class="main__katalog">
+                <div class="katalog__base-img">
+                    <div class="katalog__img-icon"></div>
+                </div>
+                <p class="katalog__text">КАТАЛОГ ПРОДУКЦИИ:</p>
+            </div>
+            <div class="main__blockOne-left">
+                <div class="main__left-shunu">
+                    <div class="left__shunu-img">
+                        <div class="left__shunu-radius"></div>
+                    </div>
+                    <p class="shunu__text-left">ШИНЫ</p>
+                </div>
+                <ul type="circle" class="main__left-ulOne">
+                    <li id="main__left-liOne">Наименование 1</li>
+                    <li>Наименование 2</li>
+                    <li>Наименование 3</li>
+                    <li>Наименование 4</li>
+                </ul>
+            </div>
+            <div class="main__blockTwo-left">
+                <div class="main__left-shunu left-dicku">
+                    <div class="left__shunu-img">
+                        <div class="left__shunu-radius"></div>
+                    </div>
+                    <p class="shunu__text-left">ДИСКИ</p>
+                </div>
+                <ul type="circle" class="main__left-ulOne">
+                    <li id="main__left-liOne">Наименование 1</li>
+                    <li>Наименование 2</li>
+                    <li>Наименование 3</li>
+                    <li>Наименование 4</li>
+                </ul>
+            </div>
+            <div class="main__blockThree-left">
+                <div class="main__left-shunu left-dicku">
+                    <div class="left__shunu-img">
+                        <div class="left__shunu-radius"></div>
+                    </div>
+                    <p class="shunu__text-left">БОЛТЫ</p>
+                </div>
+                <ul type="circle" class="main__left-ulOne">
+                    <li id="main__left-liOne">Наименование 1</li>
+                    <li>Наименование 2</li>
+                    <li>Наименование 3</li>
+                    <li>Наименование 4</li>
+                </ul>
+            </div>
+        </div>
+        <div class="main__center">
+            <div class="main__center-left">
+                <div class="center__box-left">
+                    <p class="text__box-one">Goodyear</p>
+                    <p class="text__box-two">Ultra Grip Extreme</p>
+                    <div class="center__box-img">
+                        <div class="center__box-icon"></div>
+                    </div>
+                    <p class="text__box-three">90.00 </p>
+                    <p class="text__box-four">грн.</p>
+                </div>
+                <div class="center__box-leftOne">
+                    <p class="text__box-one">Goodyear</p>
+                    <p class="text__box-two">Ultra Grip Extreme</p>
+                    <div class="center__box-img">
+                        <div class="center__box-icon"></div>
+                    </div> <span class="text__box-six">90.00 </span> <span class="text__box-five">грн.</span> </div>
+                <div class="center__box-leftTwo">
+                    <p class="text__box-one">Goodyear</p>
+                    <p class="text__box-two">Ultra Grip Extreme</p>
+                    <div class="center__box-img">
+                        <div class="center__box-icon"></div>
+                    </div> <span class="text__box-six">90.00 </span> <span class="text__box-five">грн.</span> </div>
+            </div>
+            <div class="main__center-center">
+                <div class="center__box-center  ">
+                    <p class="text__box-one center__box-text">Nokian</p>
+                    <p class="text__box-two center__box-textOne">Hakkapeliitta R</p>
+                    <div class="center__box-img center__box-imgFour">
+                        <div class="center__box-iconOne"></div>
+                    </div>
+                    <div class="center__text-base">
+                        <p class="text__base-price">115.00</p>
+                        <p class="text__base-value">грн.</p>
+                    </div>
+                </div>
+                <div class="center__box-centerOne  ">
+                    <p class="text__box-one center__box-text">Nokian</p>
+                    <p class="text__box-two center__box-textOne">Hakkapeliitta R</p>
+                    <div class="center__box-img center__box-imgFour">
+                        <div class="center__box-iconOne"></div>
+                    </div>
+                    <div class="center__text-base">
+                        <p class="text__base-price">115.00</p>
+                        <p class="text__base-value">грн.</p>
+                    </div>
+                </div>
+                <div class="center__box-centerTwo  ">
+                    <p class="text__box-one center__box-text">Nokian</p>
+                    <p class="text__box-two center__box-textOne">Hakkapeliitta R</p>
+                    <div class="center__box-img center__box-imgFour">
+                        <div class="center__box-iconOne"></div>
+                    </div>
+                    <div class="center__text-base">
+                        <p class="text__base-price">115.00</p>
+                        <p class="text__base-value">грн.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="main__center-right">
+                <div class="center__right-box">
+                    <p class="text__box-one center__right-text ">Hankook</p>
+                    <p class="text__box-two center__right-textOne ">K 708 155/65 R14 </p>
+                    <div class="center__box-img center__box-imgsix">
+                        <div class="center__box-iconTwo"></div>
+                    </div>
+                    <div class="center__text-base center__text-base-two">
+                        <p class="text__base-price">393.00</p>
+                        <p class="text__base-value">грн.</p>
+                    </div>
+                </div>
+                <div class="center__right-boxOne  ">
+                    <p class="text__box-one center__right-text ">Hankook</p>
+                    <p class="text__box-two center__right-textOne ">K 708 155/65 R14 </p>
+                    <div class="center__box-img center__box-imgsix">
+                        <div class="center__box-iconTwo"></div>
+                    </div>
+                    <div class="center__text-base center__text-base-two">
+                        <p class="text__base-price">393.00</p>
+                        <p class="text__base-value">грн.</p>
+                    </div>
+                </div>
+                <div class="center__right-boxTwo  ">
+                    <p class="text__box-one center__right-text ">Hankook</p>
+                    <p class="text__box-two center__right-textOne ">K 708 155/65 R14 </p>
+                    <div class="center__box-img center__box-imgsix">
+                        <div class="center__box-iconTwo"></div>
+                    </div>
+                    <div class="center__text-base center__text-base-two">
+                        <p class="text__base-price">393.00</p>
+                        <p class="text__base-value">грн.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main__right">
+            <div class="main__right-top">
+                <div class="katalog__base-img">
+                    <div class="katalog__img-icon"></div>
+                </div>
+                <p class="katalog__text text-brendu">БРЕНДЫ:</p>
+            </div>
+            <div class="Main__right-boxOne">
+                <div class="main__left-shunu shunu-right-img">
+                    <div class="left__shunu-img ">
+                        <div class="left__shunu-radius"></div>
+                    </div>
+                    <p class="shunu__text-left ">ШИНЫ</p>
+                </div>
+                <form action="" class="right__form-shunu">
+                    <input type="checkbox">
+                    <label> Бренд 1</label>
+                </form>
+                <input type="checkbox" class="checkbox--right">
+                <label class="label__right"> Бренд 2</label>
+                <input type="checkbox" class="checkbox--rightOne">
+                <label class="label__right label__rightTwo "> Бренд 3</label>
+            </div>
+            <div class="Main__right-boxOne">
+                <div class="main__left-shunu shunu-right-img">
+                    <div class="left__shunu-img ">
+                        <div class="left__shunu-radius"></div>
+                    </div>
+                    <p class="shunu__text-left ">ДИСКИ</p>
+                </div>
+                <form action="" class="right__form-shunu">
+                    <input type="checkbox">
+                    <label> Бренд 1</label>
+                </form>
+                <input type="checkbox" class="checkbox--right">
+                <label class="label__right"> Бренд 2</label>
+                <input type="checkbox" class="checkbox--rightOne">
+                <label class="label__right label__rightTwo "> Бренд 3</label>
+            </div>
+            <input type="button" value="ВЫБРАТЬ" class="main__right-button"> </div>
+    </main>
+    <div class="logotypes">
+        <div class="logotypesOne logo-logo"></div>
+        <div class="logotypesTwo logo-logo"></div>
+        <div class="logotypesThree logo-logo"></div>
+        <div class="logotypesFour logo-logo"></div>
+        <div class="logotypesFive logo-logo"></div>
+        <div class="logotypesSix logo-logo"></div>
+        <div class="logotypesSeven logo-logo"></div>
+        <div class="logotypesEight logo-logo"></div>
+    </div>
+    <footer class="footer">
+        <div class="footer__text-base"> <a href="">О компании</a>
+            <div class="line"></div> <a href="">Доставка</a>
+            <div class="line"></div> <a href="">Статьи</a>
+            <div class="line"></div> <a href="">Контакты</a> </div>
+        <p class="footer__text-last">Создание сайта © Global Vision</p>
+    </footer>
+</body>
+
+</html>
